@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gplane",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Shareable ESLint config for GPlane's projects",
   "main": "index.js",
   "author": "gplane",
