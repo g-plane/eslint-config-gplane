@@ -1,0 +1,16 @@
+{
+  "name": "eslint-config-gplane",
+  "version": "1.0.0",
+  "description": "Shareable ESLint config for GPlane's projects",
+  "main": "index.js",
+  "author": "gplane",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/g-plane/eslint-config-gplane"
+  },
+  "license": "Apache-2.0",
+  "private": false,
+  "peerDependencies": {
+    "eslint": "^4.13.1"
+  }
+}
