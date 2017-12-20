@@ -184,7 +184,6 @@
     "rest-spread-spacing": [2, "never"],
     "template-curly-spacing": [2, "never"],
 
-    // eslint-plugin-import
     "import/no-unresolved": 2,
     "import/named": 1,
     "import/default": 2,
@@ -201,7 +200,6 @@
     "import/newline-after-import": 2,
     "import/prefer-default-export": 2,
 
-    // eslint-plugin-eslint-comments
     "eslint-comments/disable-enable-pair": [2, { "allowWholeFile": true }],
     "eslint-comments/no-aggregating-enable": 2,
     "eslint-comments/no-duplicate-disable": 2,
