@@ -11,7 +11,8 @@
     "node": true
   },
   "plugins": [
-    "import"
+    "import",
+    "eslint-comments"
   ],
   "rules": {
     "no-compare-neg-zero": 2,
