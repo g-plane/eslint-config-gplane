@@ -10,6 +10,9 @@
     "es6": true,
     "node": true
   },
+  "plugins": [
+    "import"
+  ],
   "rules": {
     "no-compare-neg-zero": 2,
     "no-cond-assign": [2, "except-parens"],
