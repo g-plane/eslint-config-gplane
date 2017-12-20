@@ -13,14 +13,15 @@
     "no-dupe-args": 2,
     "no-dupe-keys": 2,
     "no-duplicate-case": 2,
-    "no-ex-assign": [2, "all", {
+    "no-ex-assign": 2,
+    "no-extra-boolean-cast": 2,
+    "no-extra-parens": [2, "all", {
       "conditionalAssign": false,
       "returnAssign": false,
       "nestedBinaryExpressions": false,
-      "ignoreJSX": "multi-line"
+      "ignoreJSX": "multi-line",
+      "enforceForArrowConditionals": false
     }],
-    "no-extra-boolean-cast": 2,
-    "no-extra-parens": 2,
     "no-extra-semi": 2,
     "no-func-assign": 2,
     "no-inner-declarations": [2, "functions"],
@@ -126,7 +127,7 @@
     "no-array-constructor": 2,
     "no-bitwise": 2,
     "no-lonely-if": 2,
-    "no-mixed-operators": 2,
+    "no-mixed-operators": [2, { "allowSamePrecedence": true }],
     "no-mixed-spaces-and-tabs": 2,
     "no-multiple-empty-lines": 2,
     "no-new-object": 2,
@@ -137,7 +138,7 @@
     "object-curly-spacing": [2, "always", { "arraysInObjects": true, "objectsInObjects": true }],
     "operator-assignment": [1, "always"],
     "operator-linebreak": [2, "before"],
-    "quote-props": [2, "as-needed"],
+    "quote-props": [2, "as-needed", { "keywords": true }],
     "quotes": [2, "single", { "avoidEscape": true }],
     "semi": [2, "never"],
     "semi-spacing": 2,
