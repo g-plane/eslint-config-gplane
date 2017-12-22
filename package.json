@@ -10,15 +10,25 @@
   },
   "license": "Apache-2.0",
   "private": false,
+  "scripts": {
+    "test": "jest --verbose"
+  },
+  "jest": {
+    "testPathIgnorePatterns": ["__tests__/setup/"],
+    "testEnvironment": "node",
+    "setupTestFrameworkScriptFile": "./__tests__/setup/matchers.js"
+  },
   "keywords": [
     "eslint",
     "eslintconfig"
   ],
   "devDependencies": {
+    "@types/jest": "^21.1.9",
     "eslint": "^4.13.1",
     "eslint-plugin-eslint-comments": "^2.0.1",
     "eslint-plugin-flowtype": "^2.40.1",
-    "eslint-plugin-import": "^2.8.0"
+    "eslint-plugin-import": "^2.8.0",
+    "jest": "^22.0.3"
   },
   "peerDependencies": {
     "eslint": "^4.13.1",
