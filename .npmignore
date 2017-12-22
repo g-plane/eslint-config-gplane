@@ -1,2 +1,3 @@
 __tests__/
 index.d.ts
+.travis.yml
