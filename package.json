@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gplane",
-  "version": "1.3.2",
+  "version": "1.4.0",
   "description": "Shareable ESLint config for GPlane's projects",
   "main": "index.js",
   "author": "gplane",
@@ -15,7 +15,9 @@
     "test": "jest --verbose"
   },
   "jest": {
-    "testPathIgnorePatterns": ["__tests__/setup/"],
+    "testPathIgnorePatterns": [
+      "__tests__/setup/"
+    ],
     "testEnvironment": "node",
     "setupTestFrameworkScriptFile": "./__tests__/setup/matchers.js"
   },
