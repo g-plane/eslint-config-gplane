@@ -3,14 +3,14 @@ import options = require('../../../.eslintrc.json')
 
 const cli = new CLIEngine(options)
 
+/* tslint:disable no-invalid-template-strings */
+
 test('incorrect', () => {
-  // eslint-disable-next-line no-template-curly-in-string
   expect(cli.executeOnText('`${ name }`'))
     .toHasLintingError('template-curly-spacing')
 })
 
 test('correct', () => {
-  // eslint-disable-next-line no-template-curly-in-string
   expect(cli.executeOnText('`${name}`'))
     .not.toHasLintingError('template-curly-spacing')
 })

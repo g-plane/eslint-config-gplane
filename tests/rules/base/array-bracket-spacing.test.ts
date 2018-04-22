@@ -1,5 +1,5 @@
-const { CLIEngine } = require('eslint')
-const options = require('../../../.eslintrc.json')
+import { CLIEngine } from 'eslint'
+import options = require('../../../.eslintrc.json')
 
 const cli = new CLIEngine(options)
 

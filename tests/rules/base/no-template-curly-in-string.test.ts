@@ -3,8 +3,9 @@ import options = require('../../../.eslintrc.json')
 
 const cli = new CLIEngine(options)
 
+/* tslint:disable no-invalid-template-strings */
+
 test('incorrect', () => {
-  // eslint-disable-next-line no-template-curly-in-string
   expect(cli.executeOnText('"${s}"'))
     .toHasLintingWarning('no-template-curly-in-string')
 })

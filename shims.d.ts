@@ -3,12 +3,12 @@ declare namespace jest {
     /**
      * Checks if linting result has error of specified rule id you expected.
      */
-    toHasLintingError(expected: string): R
+    toHasLintingError (expected: string): R
 
     /**
      * Checks if linting result has warning of specified rule id you expected.
      */
-    toHasLintingWarning(expected: string): R
+    toHasLintingWarning (expected: string): R
   }
 }
 
