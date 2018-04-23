@@ -11,8 +11,3 @@ declare namespace jest {
     toHasLintingWarning (expected: string): R
   }
 }
-
-declare module '*.json' {
-  let content: any
-  export = content
-}
