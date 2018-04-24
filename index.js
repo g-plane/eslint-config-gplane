@@ -1,21 +1,20 @@
+const path = require('path')
 const base = require('./.eslintrc.json')
 
-try {
-  require.resolve('eslint-plugin-import')
-  const _import = require('./import')
-  base.plugins.push('import')
-  Object.assign(base.rules, _import.rules)
-} catch (error) {
-  //
-}
+const plugins = [
+  'import',
+  'eslint-comments',
+]
 
-try {
-  require.resolve('eslint-plugin-eslint-comments')
-  const _eslintComments = require('./eslint-comments')
-  base.plugins.push('eslint-comments')
-  Object.assign(base.rules, _eslintComments.rules)
-} catch (error) {
-  //
-}
+plugins.forEach(plugin => {
+  try {
+    require.resolve(`eslint-plugin-${plugin}`)
+    const pluginInstance = require(path.join(__dirname, plugin))
+    base.plugins.push(plugin)
+    Object.assign(base.rules, pluginInstance.rules)
+  } catch (error) {
+    //
+  }
+})
 
 module.exports = base
