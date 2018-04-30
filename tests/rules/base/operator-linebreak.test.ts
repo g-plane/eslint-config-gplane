@@ -5,14 +5,14 @@ const cli = new CLIEngine(options)
 
 test('incorrect', () => {
   expect(cli.executeOnText(`
-    a = b +
-      c
+    a = b
+      + c
   `)).toHasLintingError('operator-linebreak')
 })
 
 test('correct', () => {
   expect(cli.executeOnText(`
-    a = b
-      + c
+    a = b +
+      c
   `)).not.toHasLintingError('operator-linebreak')
 })
