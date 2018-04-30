@@ -1,8 +1,25 @@
+function isPkgInstalled (pkg) {
+  try {
+    require.resolve(pkg)
+    return true
+  } catch (error) {
+    return false
+  }
+}
+
 module.exports = {
   'extends': 'gplane',
   plugins: [
     'react'
   ],
+  env: {
+    browser: true,
+  },
+  settings: {
+    react: {
+      pragma: isPkgInstalled('preact') ? 'h' : 'React'
+    }
+  },
   rules: {
     'react/destructuring-assignment': [2, 'always'],
     'react/no-access-state-in-setstate': 2,
@@ -42,6 +59,8 @@ module.exports = {
       beforeSelfClosing: 'always',
       afterOpening: 'never'
     }],
+    'react/jsx-uses-react': 2,
+    'react/jsx-uses-vars': 2,
     'react/jsx-wrap-multilines': [2, {
       declaration: 'parens-new-line',
       assignment: 'parens-new-line',
