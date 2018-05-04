@@ -45,7 +45,7 @@
     "curly": 2,
     "default-case": 1,
     "dot-location": [2, "property"],
-    "dot-notation": [2, { "allowKeywords": false }],
+    "dot-notation": 2,
     "eqeqeq": 2,
     "guard-for-in": 2,
     "no-alert": 2,

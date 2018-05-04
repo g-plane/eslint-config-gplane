@@ -11,7 +11,4 @@ test('incorrect', () => {
 test('correct', () => {
   expect(cli.executeOnText('obj.key'))
     .not.toHasLintingError('dot-notation')
-
-  expect(cli.executeOnText('obj["class"]'))
-    .not.toHasLintingError('dot-notation')
 })
