@@ -100,6 +100,7 @@
     "no-buffer-constructor": 2,
     "no-new-require": 2,
     "no-path-concat": 1,
+    "no-process-exit": 2,
     "array-bracket-newline": [2, "consistent"],
     "array-bracket-spacing": [2, "never"],
     "block-spacing": [2, "always"],
