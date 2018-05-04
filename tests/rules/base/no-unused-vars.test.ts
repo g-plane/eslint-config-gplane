@@ -5,5 +5,5 @@ const cli = new CLIEngine(options)
 
 test('incorrect', () => {
   expect(cli.executeOnText('const a = 5'))
-    .toHasLintingWarning('no-unused-vars')
+    .toHasLintingError('no-unused-vars')
 })
