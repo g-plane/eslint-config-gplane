@@ -1,11 +1,4 @@
-function isPkgInstalled(pkg) {
-  try {
-    require.resolve(pkg)
-    return true
-  } catch (error) {
-    return false
-  }
-}
+const { isPkgInstalled } = require('./utils')
 
 module.exports = {
   'extends': 'gplane',
