@@ -29,4 +29,12 @@ if (isPkgInstalled('react') || isPkgInstalled('preact')) {
   Object.assign(base.rules, config.rules)
 }
 
+if (isPkgInstalled('vue')) {
+  const config = require('./vue')
+  base.plugins = base.plugins.concat(config.plugins)
+  base.parser = config.parser
+  Object.assign(base.env, config.env)
+  Object.assign(base.rules, config.rules)
+}
+
 module.exports = base
