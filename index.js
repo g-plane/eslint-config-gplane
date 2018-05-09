@@ -3,7 +3,6 @@ const base = require('./.eslintrc.json')
 
 const plugins = [
   'import',
-  'eslint-comments',
 ]
 
 plugins.forEach(plugin => {
