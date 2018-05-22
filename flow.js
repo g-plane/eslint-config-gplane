@@ -14,28 +14,6 @@ module.exports = {
     'flowtype/no-types-missing-file-annotation': 1,
     'flowtype/no-unused-expressions': 2,
     'flowtype/object-type-delimiter': [2, 'comma'],
-    'flowtype/require-parameter-type': [
-      1,
-      {
-        excludeArrowFunctions: 'expressionsOnly',
-        excludeParameterMatch: '^_'
-      }
-    ],
-    'flowtype/require-return-type': [
-      1,
-      'always',
-      { excludeArrowFunctions: true }
-    ],
-    'flowtype/require-variable-type': [
-      1,
-      {
-        excludeVariableTypes: {
-          'var': true,
-          let: true,
-          'const': false,
-        }
-      }
-    ],
     'flowtype/semi': [2, 'never'],
     'flowtype/space-after-type-colon': [2, 'always', { allowLineBreak: true }],
     'flowtype/space-before-generic-bracket': [2, 'never'],
