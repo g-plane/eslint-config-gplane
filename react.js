@@ -1,7 +1,6 @@
 const { isPkgInstalled } = require('./utils')
 
 module.exports = {
-  'extends': 'gplane',
   plugins: [
     'react'
   ],

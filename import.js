@@ -1,5 +1,4 @@
 module.exports = {
-  'extends': 'gplane',
   plugins: ['import'],
   rules: {
     'import/no-unresolved': [2, { ignore: ['^@'] }],

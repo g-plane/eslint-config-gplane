@@ -1,5 +1,4 @@
 module.exports = {
-  'extends': 'gplane',
   parser: 'babel-eslint',
   plugins: [
     'flowtype'
