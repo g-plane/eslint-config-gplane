@@ -16,9 +16,6 @@
     "eslintconfig"
   ],
   "devDependencies": {
-    "eslint": "^5.0.0",
-    "eslint-plugin-eslint-comments": "^2.0.1",
-    "eslint-plugin-flowtype": "^2.40.1",
-    "eslint-plugin-import": "^2.11.0"
+    "eslint": "^5.0.0"
   }
 }
