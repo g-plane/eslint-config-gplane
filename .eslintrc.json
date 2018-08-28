@@ -6,11 +6,6 @@
       "jsx": true
     }
   },
-  "env": {
-    "es6": true,
-    "node": true
-  },
-  "plugins": [],
   "rules": {
     "getter-return": [2, { "allowImplicit": true }],
     "no-async-promise-executor": 2,
