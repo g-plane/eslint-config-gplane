@@ -1,7 +1,6 @@
 module.exports = {
   rules: {
     'no-undef': 0,
-    'typescript/member-delimiter-style': [2, { delimiter: 'none' }],
     'typescript/no-angle-bracket-type-assertion': 2,
     'typescript/no-array-constructor': 2,
     'typescript/no-triple-slash-reference': 2,
