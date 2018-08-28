@@ -1,8 +1,4 @@
 module.exports = {
-  parser: 'babel-eslint',
-  plugins: [
-    'flowtype'
-  ],
   rules: {
     'flowtype/boolean-style': [2, 'boolean'],
     'flowtype/define-flow-type': 2,

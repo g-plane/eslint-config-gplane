@@ -1,17 +1,4 @@
-const { isPkgInstalled } = require('./utils')
-
 module.exports = {
-  plugins: [
-    'react'
-  ],
-  env: {
-    browser: true,
-  },
-  settings: {
-    react: {
-      pragma: isPkgInstalled('preact') ? 'h' : 'React'
-    }
-  },
   rules: {
     'react/destructuring-assignment': [2, 'always'],
     'react/no-access-state-in-setstate': 2,

@@ -1,11 +1,4 @@
 module.exports = {
-  plugins: [
-    'vue'
-  ],
-  parser: 'vue-eslint-parser',
-  env: {
-    browser: true,
-  },
   rules: {
     'vue/comment-directive': 2,
     'vue/jsx-uses-vars': 2,
