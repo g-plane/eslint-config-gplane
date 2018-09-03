@@ -6,11 +6,10 @@
   "author": "gplane",
   "repository": {
     "type": "git",
-    "url": "https://github.com/g-plane/methane"
+    "url": "https://github.com/g-plane/eslint-config-gplane"
   },
   "license": "MIT",
   "private": false,
-  "typings": "index.d.ts",
   "keywords": [
     "eslint",
     "eslintconfig"
