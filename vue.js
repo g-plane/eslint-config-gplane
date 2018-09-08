@@ -1,3 +1,5 @@
+// eslint-plugin-vue v5.0.0-beta.3
+
 module.exports = {
   rules: {
     'vue/comment-directive': 2,
@@ -11,7 +13,9 @@ module.exports = {
     'vue/no-side-effects-in-computed-properties': 2,
     'vue/no-template-key': 2,
     'vue/no-textarea-mustache': 2,
+    'vue/no-unused-components': 2,
     'vue/no-unused-vars': 2,
+    'vue/no-use-v-if-with-v-for': 2,
     'vue/require-component-is': 2,
     'vue/require-render-return': 2,
     'vue/require-v-for-key': 2,
@@ -38,14 +42,15 @@ module.exports = {
     'vue/mustache-interpolation-spacing': [2, 'always'],
     'vue/name-property-casing': [2, 'PascalCase'],
     'vue/no-multi-spaces': 2,
+    'vue/no-template-shadow': 2,
     'vue/require-prop-types': 2,
     'vue/v-bind-style': 2,
     'vue/v-on-style': 2,
     'vue/attributes-order': 1,
     'vue/html-quotes': [2, 'double'],
-    'vue/no-confusing-v-for-v-if': 2,
     'vue/order-in-components': 1,
     'vue/this-in-template': 2,
+    'vue/component-name-in-template-casing': 2,
     'vue/html-closing-bracket-newline': [2, {
       singleline: 'never',
       multiline: 'always'
@@ -56,6 +61,7 @@ module.exports = {
       selfClosingTag: 'always'
     }],
     'vue/prop-name-casing': [2, 'camelCase'],
+    'vue/no-spaces-around-equal-signs-in-attribute': 2,
     'vue/script-indent': [2, 2, {
       baseIndent: 0,
       switchCase: 1
