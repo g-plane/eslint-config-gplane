@@ -123,7 +123,7 @@
     "func-name-matching": 2,
     "function-paren-newline": [2, "consistent"],
     "implicit-arrow-linebreak": [2, "beside"],
-    "indent": [2, 2],
+    "indent": [2, 2, { "SwitchCase": 1 }],
     "jsx-quotes": [2, "prefer-double"],
     "key-spacing": [2, { "mode": "strict" }],
     "keyword-spacing": 2,
