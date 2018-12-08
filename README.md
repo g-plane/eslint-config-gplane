@@ -1,9 +1,9 @@
 # eslint-config-gplane
 
-This is shareable ESLint config created by [GPlane](https://github.com/g-plane).
-It is used in GPlane's projects.
+This is shareable ESLint config created by [Pig Fang](https://github.com/g-plane).
+It is used in Pig Fang's projects.
 
-## Main Code Style
+## Code Style Overview
 
 - No semicolon.
 - 2 spaces indent.
@@ -13,4 +13,3 @@ It is used in GPlane's projects.
 ## License
 
 MIT License
-
