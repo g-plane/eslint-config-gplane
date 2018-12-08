@@ -114,7 +114,7 @@
           "ObjectExpression": false,
           "ObjectPattern": false,
           "VariableDeclaration": false
-      }
+        }
       }
     ],
     "computed-property-spacing": [2, "never"],
