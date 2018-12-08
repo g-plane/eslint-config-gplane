@@ -39,7 +39,6 @@
     "no-unreachable": 2,
     "no-unsafe-negation": 2,
     "use-isnan": 2,
-    "valid-jsdoc": 1,
     "valid-typeof": 2,
     "accessor-pairs": 1,
     "array-callback-return": 2,
