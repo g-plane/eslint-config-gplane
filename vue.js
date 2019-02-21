@@ -3,6 +3,10 @@
 /* eslint-env commonjs */
 
 module.exports = {
+  env: {
+    browser: true,
+  },
+  plugins: ['vue'],
   rules: {
     'vue/array-bracket-spacing': [2, 'never'],
     'vue/arrow-spacing': 2,
@@ -16,7 +20,7 @@ module.exports = {
     'vue/eqeqeq': 2,
     'vue/html-closing-bracket-newline': [2, {
       multiline: 'always',
-      singleline: 'never'
+      singleline: 'never',
     }],
     'vue/html-closing-bracket-spacing': [2, {
       endTag: 'never',
@@ -49,7 +53,7 @@ module.exports = {
     'vue/no-unused-vars': 2,
     'vue/no-use-v-if-with-v-for': 2,
     'vue/object-curly-spacing': [
-      2, 'always', { arraysInObjects: true, objectsInObjects: true }
+      2, 'always', { arraysInObjects: true, objectsInObjects: true },
     ],
     'vue/order-in-components': 2,
     'vue/prop-name-casing': [2, 'camelCase'],
@@ -62,7 +66,7 @@ module.exports = {
     'vue/return-in-computed-property': 2,
     'vue/script-indent': [2, 2, {
       baseIndent: 0,
-      switchCase: 1
+      switchCase: 1,
     }],
     'vue/space-infix-ops': 2,
     'vue/space-unary-ops': 2,
@@ -84,5 +88,5 @@ module.exports = {
     'vue/valid-v-pre': 2,
     'vue/valid-v-show': 2,
     'vue/valid-v-text': 2,
-  }
+  },
 }
