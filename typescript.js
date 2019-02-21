@@ -2,6 +2,7 @@
 /* @typescript-eslint/eslint-plugin v1.4.0 */
 
 module.exports = {
+  plugins: ['@typescript-eslint'],
   rules: {
     camelcase: 2,
     indent: 2,
@@ -14,8 +15,8 @@ module.exports = {
       2,
       {
         multiline: { delimiter: 'none', requireLast: false },
-        singleline: { delimiter: 'comma', requireLast: false }
-      }
+        singleline: { delimiter: 'comma', requireLast: false },
+      },
     ],
     '@typescript-eslint/no-angle-bracket-type-assertion': 2,
     '@typescript-eslint/no-array-constructor': 2,
@@ -24,7 +25,7 @@ module.exports = {
     '@typescript-eslint/no-misused-new': 2,
     '@typescript-eslint/no-namespace': [
       2,
-      { allowDeclarations: true, allowDefinitionFiles: true }
+      { allowDeclarations: true, allowDefinitionFiles: true },
     ],
     '@typescript-eslint/no-require-imports': 2,
     '@typescript-eslint/no-this-alias': [2, { allowDestructuring: true }],
@@ -35,6 +36,6 @@ module.exports = {
     '@typescript-eslint/no-useless-constructor': 2,
     '@typescript-eslint/no-var-requires': 2,
     '@typescript-eslint/restrict-plus-operands': 2,
-    '@typescript-eslint/type-annotation-spacing': 2
-  }
+    '@typescript-eslint/type-annotation-spacing': 2,
+  },
 }
