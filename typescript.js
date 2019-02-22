@@ -3,6 +3,17 @@
 
 module.exports = {
   plugins: ['@typescript-eslint'],
+  settings: {
+    'import/extensions': ['.ts', '.tsx', '.js'],
+    'import/parsers': {
+      '@typescript-eslint/parser': ['.ts', '.tsx'],
+    },
+    'import/resolver': {
+      node: {
+        extensions: ['.ts', '.tsx', '.js'],
+      },
+    },
+  },
   rules: {
     camelcase: 2,
     indent: 2,
