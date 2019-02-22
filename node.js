@@ -1,5 +1,4 @@
 /* eslint-env commonjs */
-/* eslint-plugin-node v8.0.1 */
 
 module.exports = {
   env: {
