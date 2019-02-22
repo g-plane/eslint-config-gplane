@@ -6,6 +6,9 @@ module.exports = {
   env: {
     browser: true,
   },
+  parserOptions: {
+    extraFileExtensions: ['.vue'], // For "@typescript-eslint/parser"
+  },
   plugins: ['vue'],
   rules: {
     'vue/array-bracket-spacing': [2, 'never'],
