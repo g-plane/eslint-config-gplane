@@ -13,9 +13,9 @@ module.exports = {
     },
   },
   rules: {
-    'node/no-extraneous-import': 2,
+    'node/no-extraneous-import': 0,
     'node/no-extraneous-require': 2,
-    'node/no-missing-import': 2,
+    'node/no-missing-import': 0,
     'node/no-missing-require': 2,
     'node/no-unpublished-bin': 2,
     'node/no-unpublished-import': 0,
