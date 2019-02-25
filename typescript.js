@@ -23,6 +23,7 @@ module.exports = {
     camelcase: 2,
     indent: 2,
     'no-undef': 0,
+    'no-unused-vars': 0,
     'no-use-before-define': 0,
     '@typescript-eslint/adjacent-overload-signatures': 2,
     '@typescript-eslint/array-type': [2, 'array-simple'],
