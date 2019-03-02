@@ -6,7 +6,6 @@ module.exports = {
   parser: '@typescript-eslint/parser',
   parserOptions: {
     project: './tsconfig.json',
-    tsconfigRootDir: './',
   },
   settings: {
     'import/extensions': ['.ts', '.tsx', '.js'],
@@ -25,6 +24,7 @@ module.exports = {
     'no-undef': 0,
     'no-unused-vars': 0,
     'no-use-before-define': 0,
+    'import/no-unresolved': 0,
     '@typescript-eslint/adjacent-overload-signatures': 2,
     '@typescript-eslint/array-type': [2, 'array-simple'],
     '@typescript-eslint/ban-types': [2, {
@@ -91,4 +91,11 @@ module.exports = {
     '@typescript-eslint/restrict-plus-operands': 2,
     '@typescript-eslint/type-annotation-spacing': 2,
   },
+}
+
+try {
+  require.resolve('eslint-plugin-node')
+  module.exports.rules['node/no-unsupported-features/es-syntax'] = 0
+} catch (_) {
+  // ignore
 }
