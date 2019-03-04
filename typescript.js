@@ -25,6 +25,9 @@ module.exports = {
     'no-unused-vars': 0,
     'no-use-before-define': 0,
     'import/no-unresolved': 0,
+    'import/named': 0,
+    'import/default': 0,
+    'import/namespace': 0,
     '@typescript-eslint/adjacent-overload-signatures': 2,
     '@typescript-eslint/array-type': [2, 'array-simple'],
     '@typescript-eslint/ban-types': [2, {
@@ -95,7 +98,11 @@ module.exports = {
 
 try {
   require.resolve('eslint-plugin-node')
-  module.exports.rules['node/no-unsupported-features/es-syntax'] = 0
+  Object.assign(module.exports.rules, {
+    'node/no-extraneous-require': 0,
+    'node/no-missing-require': 0,
+    'node/no-unsupported-features/es-syntax': 0,
+  })
 } catch (_) {
   // ignore
 }
