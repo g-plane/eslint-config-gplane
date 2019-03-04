@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-gplane",
-  "version": "5.1.2",
+  "version": "5.1.3",
   "description": "Shareable ESLint config for GPlane's projects",
   "main": ".eslintrc.json",
   "author": "gplane",
