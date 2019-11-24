@@ -1,4 +1,5 @@
 /* eslint-env commonjs */
+/* eslint-plugin-import v2.16.0 */
 
 module.exports = {
   plugins: ['import'],
