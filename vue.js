@@ -1,4 +1,4 @@
-// eslint-plugin-vue v5.2.2
+// eslint-plugin-vue v6.0.1
 /* eslint sort-keys: 2 */
 /* eslint-env commonjs */
 
@@ -21,6 +21,7 @@ module.exports = {
     'vue/comma-dangle': [2, 'only-multiline'],
     'vue/comment-directive': 2,
     'vue/component-name-in-template-casing': [2, 'kebab-case'],
+    'vue/dot-location': [2, 'property'],
     'vue/eqeqeq': 2,
     'vue/html-closing-bracket-newline': [2, {
       multiline: 'always',
@@ -37,6 +38,7 @@ module.exports = {
     'vue/html-self-closing': 2,
     'vue/jsx-uses-vars': 2,
     'vue/key-spacing': 2,
+    'vue/keyword-spacing': 2,
     'vue/match-component-file-name': 2,
     'vue/max-attributes-per-line': [
       2,
@@ -46,8 +48,10 @@ module.exports = {
     'vue/mustache-interpolation-spacing': [2, 'always'],
     'vue/name-property-casing': [2, 'PascalCase'],
     'vue/no-async-in-computed-properties': 2,
+    'vue/no-deprecated-scope-attribute': 2,
     'vue/no-dupe-keys': 2,
     'vue/no-duplicate-attributes': 2,
+    'vue/no-empty-pattern': 2,
     'vue/no-multi-spaces': 2,
     'vue/no-parsing-error': 2,
     'vue/no-reserved-keys': 2,
@@ -87,6 +91,7 @@ module.exports = {
     'vue/v-bind-style': 2,
     'vue/v-on-function-call': [2, 'never'],
     'vue/v-on-style': 2,
+    'vue/v-slot-style': [2, 'shorthand'],
     'vue/valid-template-root': 2,
     'vue/valid-v-bind': 2,
     'vue/valid-v-cloak': 2,
@@ -100,6 +105,7 @@ module.exports = {
     'vue/valid-v-once': 2,
     'vue/valid-v-pre': 2,
     'vue/valid-v-show': 2,
+    'vue/valid-v-slot': 2,
     'vue/valid-v-text': 2,
   },
 }
