@@ -15,6 +15,6 @@
     "eslintconfig"
   ],
   "devDependencies": {
-    "eslint": "^5.14.1"
+    "eslint": "^6.7.0"
   }
 }
