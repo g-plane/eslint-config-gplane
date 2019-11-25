@@ -1,5 +1,5 @@
 /* eslint-env commonjs */
-/* eslint-plugin-node v8.0.1 */
+/* eslint-plugin-node v10.0.0 */
 
 module.exports = {
   env: {
@@ -13,6 +13,8 @@ module.exports = {
     },
   },
   rules: {
+    'node/no-callback-literal': 2,
+    'node/no-exports-assign': 2,
     'node/no-extraneous-import': 0,
     'node/no-extraneous-require': 2,
     'node/no-missing-import': 0,
@@ -27,6 +29,7 @@ module.exports = {
     'node/shebang': 2,
     'node/no-deprecated-api': 2,
     'node/exports-style': [2, 'module.exports'],
+    'node/file-extension-in-import': 0,
     'node/prefer-global/buffer': [2, 'never'],
     'node/prefer-global/console': [2, 'always'],
     'node/prefer-global/process': [2, 'always'],
@@ -34,5 +37,7 @@ module.exports = {
     'node/prefer-global/text-encoder': [2, 'never'],
     'node/prefer-global/url-search-params': [2, 'never'],
     'node/prefer-global/url': [2, 'never'],
+    'node/prefer-promises/dns': 2,
+    'node/prefer-promises/fs': 2,
   },
 }
