@@ -1,5 +1,5 @@
 /* eslint-env commonjs */
-/* eslint-plugin-import v2.16.0 */
+/* eslint-plugin-import v2.18.2 */
 
 module.exports = {
   plugins: ['import'],
@@ -15,30 +15,17 @@ module.exports = {
     'import/no-webpack-loader-syntax': 2,
     'import/no-self-import': 0,
     'import/no-cycle': 0,
-    'import/no-useless-path-segments': 2,
+    'import/no-useless-path-segments': [2, { noUselessIndex: true }],
     'import/no-relative-parent-imports': 0,
+    'import/no-unused-modules': 0,
     'import/export': 2,
     'import/no-named-as-default': 2,
     'import/no-named-as-default-member': 2,
     'import/no-deprecated': 2,
-    'import/no-extraneous-dependencies': [
-      2,
-      {
-        devDependencies: [
-          'tests/**/*.*',
-          'test/**/*.*',
-          '__tests__/**/*.*',
-          '**/*.test.*',
-          '**/*.spec.*',
-          'scripts/**/*.*',
-          'tools/**/*.*',
-          't.js',
-        ],
-      },
-    ],
+    'import/no-extraneous-dependencies': 0,
     'import/no-mutable-exports': 2,
     'import/unambiguous': 0,
-    'import/no-commonjs': 0,
+    'import/no-commonjs': 2,
     'import/no-amd': 2,
     'import/no-nodejs-modules': 0,
     'import/first': 2,
