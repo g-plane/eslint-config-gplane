@@ -85,7 +85,7 @@ module.exports = {
     '@typescript-eslint/no-parameter-properties': 0,
     '@typescript-eslint/no-require-imports': 2,
     '@typescript-eslint/no-this-alias': [2, { allowDestructuring: true }],
-    '@typescript-eslint/no-type-alias': 2,
+    '@typescript-eslint/no-type-alias': 0,
     '@typescript-eslint/no-unnecessary-condition': 2,
     '@typescript-eslint/no-unnecessary-qualifier': 2,
     '@typescript-eslint/no-unnecessary-type-arguments': 0,
